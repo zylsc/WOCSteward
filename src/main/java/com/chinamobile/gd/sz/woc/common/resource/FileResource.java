@@ -16,6 +16,10 @@ public class FileResource implements IFileResource {
         file = new File(uri);
     }
 
+    public long size() {
+        return file.length();
+    }
+
     public boolean make() {
         return file.exists() || file.mkdirs();
     }
