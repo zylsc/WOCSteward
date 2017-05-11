@@ -8,5 +8,6 @@ public interface IStateableResource {
     boolean exists();
     boolean canRead();
     boolean canWrite();
+    long size();
     long lastModify();
 }
