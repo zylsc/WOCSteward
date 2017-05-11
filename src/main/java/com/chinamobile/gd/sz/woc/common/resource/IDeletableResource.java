@@ -6,4 +6,5 @@ package com.chinamobile.gd.sz.woc.common.resource;
  */
 public interface IDeletableResource {
     boolean delete();
+    boolean clear();
 }
